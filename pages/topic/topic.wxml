@@ -1,0 +1,10 @@
+<!--<import src="/dist/tab/index.wxml"/>
+<import src="/dist/loadmore/index.wxml"/>
+
+<view class="container">
+  <view class='zan-tab_bd--fixed'>
+    <template is="zan-tab" data="{{...navTab,componentId:'navTab'}}"></template>
+  </view>
+  <scroll-view class='scroll-margin' scroll-y="true" lower-threshold="5" bindscrolltolower="lower" scroll-width-animation="true" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+  <block wx:for>
+  </scroll-view>-->

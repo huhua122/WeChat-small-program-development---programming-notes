@@ -1,0 +1,29 @@
+<!--index.wxml-->
+<view class='downView'>
+  <text class='winNum'>您总共获胜了
+  <text style='color:red'>{{winNum}}</text>次
+  </text>
+  <view class='showView'>
+    <!--给图片资源添加一个动态地址{{}}-->
+    <image src='{{imageAiSrc}}' class='gesturesImgL'></image>
+    <text class='winOrLost'>{{gameResult}}</text>
+    <image src='{{imageUserSrc}}' class='gesturesImgR'></image>
+  </view>
+
+  <view class='chooseForUserView'>
+    <text class='winNum2'>点击以下图片,选择出拳方式~</text>
+    <view class='choose-V'>
+      <!--block内部进行条件循环，根据srcs数组元素动态生成三份view-->
+      <block wx:for="{{srcs}}" wx:key="*this">
+        <!--给每个图片添加一个绑定的事件监听'changeForChoose'-->
+        <view class='choose-view' bindtap='changeForChoose' id='{{index}}'>
+          <image class='choose-image' src='{{item}}'></image>
+        </view>
+      </block>
+    </view>
+
+    <!--给按钮添加一个绑定的事件监听'doAgain'-->
+    <button class='againBtn' bindtap='doAgain'>我不服，我要再来一次！</button>
+  </view>
+
+</view>

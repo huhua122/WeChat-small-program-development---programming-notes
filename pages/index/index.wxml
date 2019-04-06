@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<import src="/dist/loadmore/index.wxml"/>
+
+<!--配置公众号关注组件，方便用户快捷关注公众号-->
+<official-account></official-account>
+<scroll-view scroll-y="true" class='container' bindscrolltolower="lower" enable->
+</scroll-view>

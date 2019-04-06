@@ -1,0 +1,5 @@
+/**app.wxss**/
+
+/*引入有赞UI库全局样式*/
+@import "dist/index.wxss";
+

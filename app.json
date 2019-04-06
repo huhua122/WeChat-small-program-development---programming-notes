@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/demo/demo",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/mine/mine",
+    "pages/topic/topic",
+    "pages/studynote/add/add",
+    "pages/studynote/edit/edit",
+    "pages/studynote/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "hjs的编程随想",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#959394",
+    "selectedColor": "#959394",
+    "backgroundColor": "#f0f0f0",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/tabbar/home.png",
+        "selectedIconPath": "images/tabbar/home_click.png",
+        "text": "博主首页"
+      },
+      {
+        "pagePath": "pages/topic/topic",
+        "iconPath": "images/tabbar/like.png",
+        "selectedIconPath": "images/tabbar/like_click.png",
+        "text": "专题分类"
+      },
+      {
+        "pagePath": "pages/studynote/index/index",
+        "iconPath": "images/tabbar/note.png",
+        "selectedIconPath": "images/tabbar/note_click.png",
+        "text": "用户笔记"
+      },
+      {
+        "pagePath": "pages/demo/demo",
+        "iconPath": "images/tabbar/project.png",
+        "selectedIconPath": "images/tabbar/project_click.png",
+        "text": "项目demo"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "images/tabbar/about.png",
+        "selectedIconPath": "images/tabbar/about_click.png",
+        "text": "用户中心"
+      }
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+/**index.wxss**/
+/*底*/
+.downView{
+  width: 100%;
+  height: 1250rpx;
+  background: LightSkyBlue;
+  margin:0rpx;
+  text-align: center
+}
+
+/*获胜次数框架*/
+.winNum{
+  padding-top: 50rpx;
+  width: 100%;
+  height: 100rpx;
+  font-size: 40rpx;
+  color: #363527;
+  font-weight: 600;
+  display: block;
+}
+
+
+/*出拳方式选择文字*/
+.winNum2{
+  padding-top: 50rpx;
+  display: block;
+  width: 100%;
+  height: 100rpx;
+  font-size: 40rpx;
+  color: #363527;
+  font-weight: 600;
+}
+
+
+/*展示出拳结果*/
+.showView{
+  display:flex;
+  width: 100%;
+  margin-top:30rpx;
+  height: 200rpx;
+}
+
+.gesturesImgL{
+  height: 180rpx;
+  width: 180rpx;
+  margin-left: 70rpx;
+}
+
+.gesturesImgR{
+  height: 180rpx;
+  width: 180rpx;
+  margin-right:70rpx; 
+}
+
+.winOrLost{
+  color: orangered;
+  flex: 1;
+  font-size: 30rpx;
+  margin-top:60rpx;
+}
+
+/*用户出拳*/
+.chooseForUserView{
+  margin: 40rpx;
+  height: 760rpx;
+  background: pink;
+  text-align: center;
+}
+
+.choose-V{
+  display: flex;
+  margin-top: 40rpx;
+}
+
+.choose-view{
+  flex: 1;
+  content: none !important;
+  height: 140rpx;
+  width: 140rpx;
+  border: 1px solid pink;
+}
+
+.choose-image{
+  height: 160rpx;
+  width: 160rpx;
+  border-radius: 80rpx;
+}
+
+/*再来*/
+.againBtn{
+  margin: 100rpx;
+  background: #FAE738;
+}

@@ -1,0 +1,53 @@
+/* pages/mine/mine.wxss */
+/*微信小程序规定屏幕的宽度为750rpx
+  eg：iphone6屏幕宽度为375px
+      换算后：1rpx = 0.5px
+*/
+
+/**用户信息栏**/
+.userinfo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;/*居中对齐弹性盒的各项userinfo元素*/
+  width: 725rpx;
+  background: #ffffff;
+  padding: 20rpx 25rpx 30rpx 0;
+  margin: 0 0 0 0;
+  border-top: 0 solid #eee;/*上边框*/
+  border-bottom: 1px solid #dcdcdc;
+  box-shadow: 0 2px 5px #eeeeee;
+}
+
+
+/*头像*/
+.userinfo-avatar{
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+
+/*用户昵称*/
+.userinfo-nickname{
+  color: #818A8F;
+  font-size: 30rpx;
+  margin: 0 0 20rpx 0;
+}
+
+
+/*按钮样式*/
+.btn{
+  line-height: 120%;
+  background-color: #fff;
+  text-align: left;
+  margin-left: 0px;
+  padding-left: 0px;
+  font-size: 14px;
+}
+
+
+/*按钮边框去除*/
+.btn::after{
+  border: none;
+}
